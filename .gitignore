@@ -3,6 +3,8 @@ __pycache__/
 *.py[cod]
 *$py.class
 
+# Bazel related
+*/bazel-*
 
 # plz related
 */plz-out
