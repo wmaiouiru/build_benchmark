@@ -1,0 +1,27 @@
+[GLOBAL]
+pants_version = "2.14.1"
+
+backend_packages = [
+  "pants.backend.build_files.fmt.black",  
+  "pants.backend.python",
+  "pants.backend.python.lint.docformatter",
+  "pants.backend.python.lint.black",
+  "pants.backend.python.lint.flake8",
+  "pants.backend.python.lint.isort",
+  "pants.backend.python.typecheck.mypy",
+]
+
+[python-bootstrap]
+search_path = [
+    "/Library/Frameworks/Python.framework/Versions/3.9/bin",
+]
+
+[anonymous-telemetry]
+enabled = true
+repo_id = "464f1806-8994-47ac-bb13-dcc6308e6589"
+
+[python]
+enable_resolves = true
+
+[python.resolves]
+python-default = "lockfile_path.lock" 

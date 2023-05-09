@@ -13,6 +13,11 @@ __pycache__/
 *.pyc
 __pycache__
 
+# Pants workspace files
+*.pants.*
+/dist/
+*.pids
+
 # C extensions
 *.so
 
