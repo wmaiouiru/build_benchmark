@@ -1,0 +1,1 @@
+hyperfine --warmup=1 --runs=5 -i bazel run main run > BENCHMARK.md
